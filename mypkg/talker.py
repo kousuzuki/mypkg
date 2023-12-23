@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Ko Suzuki 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
@@ -10,10 +13,14 @@ n = 0
 
 def cb():
     global n
+    if n > 15:
+        n = 0
     msg = Int16()
     msg.data = n
     pub.publish(msg)
     n += 1
 
+
 node.create_timer(0.5, cb)
+
 rclpy.spin(node)
