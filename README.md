@@ -1,5 +1,5 @@
 # mypkg
-![test](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml/badge.svg)(https://github.com/kousuzuki/mypkg/actions/workflows/test.yml)
+[![test](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml)
 * このブランチのプログラムは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
 
 ## 機能概要
