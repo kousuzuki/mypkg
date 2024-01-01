@@ -4,8 +4,8 @@
 
 ## 機能概要
 
-*`talker.py`: ROS2ノードで０から数を加算し`countup`トピックにパブリッシュします。
-*`listener.py`: ROS"ノードで、`countup`トピックの数をサブスクライブし、表示します。
+* `talker.py`: ROS2ノードで０から数を加算し`countup`トピックにパブリッシュします。
+* `listener.py`: ROS"ノードで、`countup`トピックの数をサブスクライブし、表示します。
 
 # ビルド方法
 ```
