@@ -1,6 +1,6 @@
 # mypkg
 [![test](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml)
-* このブランチのプログラムは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
+* このプログラムは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
 
 ## 機能概要
 
@@ -15,7 +15,8 @@ $ colcon build
 ```
 
 ## 使用例
-使用例１
+
+* 使用例１
 ```
 $ cd ~/ros2_ws
 $ ros2 launch mypkg talk_listen.launch.py
@@ -37,7 +38,7 @@ $ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1703352543.004087262] [listener]: Listen: 11
 ...
 ```
-使用例２
+* 使用例２
 ```
 $ cd ~/ros2_ws
 $ ros2 run mypkg talker
