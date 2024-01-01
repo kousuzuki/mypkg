@@ -5,7 +5,7 @@
 ## 機能概要
 
 * `talker.py`: ROS2ノードで０から数を加算し`countup`トピックにパブリッシュします。
-* `listener.py`: ROS"ノードで、`countup`トピックの数をサブスクライブし、表示します。
+* `listener.py`: ROS2ノードで、`countup`トピックの数をサブスクライブし、表示します。
 
 # ビルド方法
 ```
@@ -67,7 +67,7 @@ $ ros2 run mypkg listener
 ```
 ## ノードとトピックについて
 
-* /talkerのノードから加算されたｎの値がトピックである/chatterによって/listenerに送信されている。
+* /talkerのノードから加算されたｎの値が/chatterによってパブリッシュ、サブスクライブされ/listenerに送信されている。
 
 ## 必要なソフトウェア
 
