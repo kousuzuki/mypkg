@@ -11,11 +11,17 @@
 # インストール方法
 1. 各自のROS2ワークスペースに移動。
 2. 以下のコマンドでこのパッケージをダウンロードします。
-`git clone https://github.com/kousuzuki/mypkg`
-3. ROS2ワークスペース内で、以下のコマンドでビルドします。
-`colcon build`
+```
+git clone https://github.com/kousuzuki/mypkg
+```
+4. ROS2ワークスペース内で、以下のコマンドでビルドします。
+```
+colcon build
+```
 4.以下のコマンドで設定を読み込みます。
-`source ~/.bashrc`
+```
+source ~/.bashrc
+```
 
 ## 使用例
 
