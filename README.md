@@ -1,6 +1,6 @@
 # mypkg
 [![test](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml)
-* このプログラムは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
+* このパッケージは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
 
 ## 機能概要
 
