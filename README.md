@@ -1,18 +1,21 @@
 # mypkg
 [![test](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/kousuzuki/mypkg/actions/workflows/test.yml)
-* このパッケージは、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
+* このレポジトリは、ROS2のパッケージであり、数が０から加算されていき、１５を超えると数がリセットされる様子を表示するものです。
+* このレポジトリを使用するためには、ROS2をインストールしている必要があります。
 
 ## 機能概要
 
 * `talker.py`: ROS2ノードで０から数を加算し`countup`トピックにパブリッシュします。
 * `listener.py`: ROS2ノードで、`countup`トピックの数をサブスクライブし、表示します。
 
-# ビルド方法
-```
-$ cd ~/ros2_ws
-$ git switch -f main
-$ colcon build
-```
+# インストール方法
+1. 各自のROS2ワークスペースに移動。
+2. 以下のコマンドでこのパッケージをダウンロードします。
+`git clone https://github.com/kousuzuki/mypkg`
+3. ROS2ワークスペース内で、以下のコマンドでビルドします。
+`colcon build`
+4.以下のコマンドで設定を読み込みます。
+`source ~/.bashrc`
 
 ## 使用例
 
@@ -73,7 +76,8 @@ $ ros2 run mypkg listener
 ## 必要なソフトウェア
 
 * Python 
-* テスト済み: 3.8.10
+　* テスト済み: 3.8.10
+* ROS2
 
 ## テスト環境
 
@@ -83,10 +87,15 @@ $ ros2 run mypkg listener
 
 * Python 3.8.10
 
+* ROS2
+
 ## ライセンス
 
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです。
-* [ryuichiueda/my_slides robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+  * https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/
+  * https://ryuichiueda.github.io/my_slides/robosys_2022/lesson9.html#/
+  * https://ryuichiueda.github.io/my_slides/robosys_2022/lesson10.html#/
+  * https://ryuichiueda.github.io/my_slides/robosys_2022/lesson11.html#/
 
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 * ©　2023　Kou Suzuki
