@@ -14,7 +14,7 @@
 ```
 git clone https://github.com/kousuzuki/mypkg
 ```
-4. ROS2ワークスペース内で、以下のコマンドでビルドします。
+3. ROS2ワークスペース内で、以下のコマンドでビルドします。
 ```
 colcon build
 ```
