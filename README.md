@@ -18,7 +18,7 @@ git clone https://github.com/kousuzuki/mypkg
 ```
 colcon build
 ```
-4.以下のコマンドで設定を読み込みます。
+4. 以下のコマンドで設定を読み込みます。
 ```
 source ~/.bashrc
 ```
